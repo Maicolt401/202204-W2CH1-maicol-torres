@@ -9,5 +9,6 @@ const daenerys = new Luchador("Daenerys", "Targaryen", 30, "Dragones", 10);
 const tyrion = new Asesor("Tyrion", "Lannister", 40, daenerys);
 const bronn = new Escudero("Bronn", "AguasNegras", 54, 0, jaime);
 
-const personajesGot = [joffrey, tyrion, bronn];
+const personajesGot = [joffrey, tyrion, bronn, daenerys, jaime];
 export default personajesGot;
+console.table(personajesGot);
