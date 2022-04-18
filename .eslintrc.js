@@ -2,6 +2,7 @@ module.exports = {
   env: {
     es2021: true,
     node: true,
+    browser: true,
   },
   extends: ["airbnb-base", "prettier"],
   parserOptions: {
@@ -11,5 +12,6 @@ module.exports = {
   rules: {
     "no-plusplus": "off",
     "no-restricted-syntax": "off",
+    "import/extensions": "off",
   },
 };
