@@ -11,4 +11,3 @@ const bronn = new Escudero("Bronn", "AguasNegras", 54, 0, jaime);
 
 const personajesGot = [joffrey, tyrion, bronn, daenerys, jaime];
 export default personajesGot;
-console.log(personajesGot);
