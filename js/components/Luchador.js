@@ -1,8 +1,7 @@
-import Personaje from "./Personaje.js";
+import Personaje from "./personaje.js";
 
 class Luchador extends Personaje {
   arma;
-
   destreza;
 
   constructor(
